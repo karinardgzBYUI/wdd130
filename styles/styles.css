@@ -26,13 +26,13 @@ p {
 }
 
 main {
-    max-width: 75%;
+    max-width: 840px;
 }
 
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid #112a46; 
+    border: 1px solid  (17,42,70,0.2); 
     padding: 1rem;
     background-color: #4682b4;
     color: #112A46;
