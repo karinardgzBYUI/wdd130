@@ -7,21 +7,21 @@
     padding : 15px;
     }
 
-    .callout img {
-    float : right;
-    background-color : #bbb;
-    border : #000 solid 1px;
-    padding : 3px;
-    margin : 0 0 10px 15px;
-    width : 100px;
-    height : auto;
-    }
+.callout img {
+        float : right;
+        background-color : #bbb;
+        border : #000 solid 1px;
+        padding : 3px;
+        margin : 0 0 10px 15px;
+        width : 100px;
+        height : auto;
+}
 
-    blockquote {
+blockquote {
     margin : 0;
-    }
-    
-    cite {
+}
+
+cite {
     display : block;
     text-align : right;
     border-top : 1px dotted #fff;
