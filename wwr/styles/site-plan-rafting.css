@@ -4,7 +4,6 @@
 header {
     padding: 20px;
     background-color: #F39B2A;
-
 }
 body {
     font-family: Monserrat;
@@ -13,18 +12,24 @@ body {
 
 h1, h2, h3, h4 {
     font-family: Urbanist;
-    color: #A54C40;
+}
+
+:root {
+    --primary-color: #A54C40;
+    --secondary-color: #F39B2A;
+    --accent1-color: #A95F4D;
+    --accent2-color: #FECF00;
+    --heading-font:'Urbanist', s
+}
+
+nav{
+    padding: 10px;
+    background-color: #FAEC7C ;
 }
 
 footer {
     font-family: Monserrat;
     margin-top: 1rem;
     border-top: 2px solid #A54C40;
-    text-align: center;
-}
-
-nav{
-    padding: 10px;
-    background-color: #FAEC7C ;
-    border: 2px #F39B2A; 
+    text-align: center; 
 }
