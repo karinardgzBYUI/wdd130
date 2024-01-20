@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+header {
+    padding: 20px;
+    background-color: #F39B2A;
+
+}
+body {
+    font-family: Monserrat;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    font-family: Urbanist;
+    color: #A54C40;
+}
+
+footer {
+    font-family: Monserrat;
+    margin-top: 1rem;
+    border-top: 2px solid #A54C40;
+    text-align: center;
+}
+
+nav{
+    padding: 10px;
+    background-color: #FAEC7C ;
+    border: 2px #F39B2A; 
+}
