@@ -59,7 +59,7 @@ nav a:hover {
 }
 
 footer {
-    font-family: Monserrat;
+    font-family: var(--paragraph-font);
     margin-top: 1rem;
     border-top: 2px solid #A54C40;
     text-align: center; 
