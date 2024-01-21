@@ -31,9 +31,9 @@ p {
     --heading-font:'Urbanist', Sans Serif;
     --paragraph-font:"Monserrat", Sans Serif Light;
     --nav-background-color: #000000;
-    --nav-link-color: #000000;
+    --nav-link-color: #ffffff;
     --nav-hover-link-color: #000000;
-    --nav-hover-backgroung-color: #000000;
+    --nav-hover-backgroung-color: #ffffff;
 }
 
 nav {
