@@ -17,8 +17,11 @@ h1, h2, h3, h4 {
 header {
     padding: 20px;
     background-color: var(--accent2-color)
-  }
+}
 
+p {
+    padding: 25px;
+}
 
 :root {
     --primary-color: #A54C40;
@@ -33,11 +36,27 @@ header {
     --nav-hover-backgroung-color: #000000;
 }
 
-nav{
-    padding: 10px;
-    background-color: #FAEC7C ;
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
 }
 
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    display: flex;
+    padding: 1rem;
+}
+
+nav a: link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a: hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
 footer {
     font-family: Monserrat;
     margin-top: 1rem;
