@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Urbanist&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 
+:root {
+    --primary-color: #A54C40;
+    --secondary-color: #F39B2A;
+    --accent1-color: #A95F4D;
+    --accent2-color: #FECF00;
+    --heading-font:'Urbanist', Sans Serif;
+    --paragraph-font:"Monserrat", Sans Serif Light;
+    --nav-background-color: #FAEC7C;
+    --nav-link-color: #A54C40;
+    --nav-hover-link-color: #000000;
+    --nav-hover-backgroung-color: #ffffff;
+}
+
 body {
     font-family: var(--paragraph-font);
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
     max-width: 960px;
     padding: 20px;
 }
@@ -21,19 +34,6 @@ header {
 
 p {
     padding: 25px;
-}
-
-:root {
-    --primary-color: #A54C40;
-    --secondary-color: #F39B2A;
-    --accent1-color: #A95F4D;
-    --accent2-color: #FECF00;
-    --heading-font:'Urbanist', Sans Serif;
-    --paragraph-font:"Monserrat", Sans Serif Light;
-    --nav-background-color: #000000;
-    --nav-link-color: #ffffff;
-    --nav-hover-link-color: #000000;
-    --nav-hover-backgroung-color: #ffffff;
 }
 
 nav {
