@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+:root {
+    --primary-color: #A54C40;
+    --secondary-color: #F39B2A;
+    --accent1-color: #A95F4D;
+    --accent2-color: #FECF00;
+    --heading-font:'Urbanist', Sans Serif;
+    --paragraph-font:'Montserrat', Sans Serif;
+    --nav-background-color: #FAEC7C;
+    --nav-link-color: #A54C40;
+    --nav-hover-link-color: #000000;
+    --nav-hover-backgroung-color: #ffffff;
+}
+
+header {
+    padding: 20px;
+    width: 920px;
+    background-color: var(--accent2-color)
+}
+
+body {
+    font-family: var(--paragraph-font);
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 960px;
+    color: var(--accent1-color);
+}
+
+.hero {
+    position: relative;
+    margin-top: 20px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    color: var(--primary-color);
+    top: 5px;
+    left: 400px;
+    background-color: #FECF00;
+    opacity: .6;
+ }
+
+.hero article {
+    position: absolute;
+    top: 50%;
+    left: 400px;
+    background-color: var(--accent2-color);
+    opacity: .7;
+}
+
+.hero article img {
+    float: right;
+    width: 50%;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+footer {
+    font-family: var(--paragraph-font);
+    margin-top: 1rem;
+    border-top: 2px solid #A54C40;
+    text-align: center; 
+}
+
+.sociallinks{
+    float: right;
+}
+
+a:link {
+    text-decoration: none;
+}
