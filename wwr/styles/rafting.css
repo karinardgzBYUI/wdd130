@@ -47,9 +47,17 @@ nav {
 nav a {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
- }
+}
 
+.box {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);              
+}
 
+figure img {
+   height: 100px;
+
+}
 
 .hero {
     position: relative;
