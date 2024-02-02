@@ -51,12 +51,11 @@ nav a {
 
 .box {
     display: grid;
-    grid-template-columns: repeat(5, 20%);              
+    grid-template-columns: repeat(5, 20%);               
 }
 
 figure img {
-   height: 100px;
-
+   height: 100px;   
 }
 
 .hero {
@@ -107,7 +106,7 @@ footer {
 
 .sociallinks {
     display: flex;
-    justify-content: end;    
+    justify-content: end;       
 }
 
 a:link {
