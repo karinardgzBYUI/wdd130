@@ -51,11 +51,11 @@ nav a {
 
 .box {
     display: grid;
-    grid-template-columns: repeat(5, 20%);               
+    grid-template-columns: repeat(5, 20%);                
 }
 
 figure img {
-   height: 100px;   
+   max-width: 120px;   
 }
 
 .hero {
