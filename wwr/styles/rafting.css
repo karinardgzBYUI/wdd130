@@ -15,10 +15,27 @@
 }
 
 header {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-column-start: 1/2;
     padding: 20px;
-    width: 920px;
-    background-color: var(--accent2-color)
+    width: auto;
+    background-color: var(--accent2-color);
+    font-size: large;
 }
+
+nav {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 2/3;
+}
+
+nav a {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+ }
 
 body {
     font-family: var(--paragraph-font);
@@ -67,11 +84,19 @@ h1, h2, h3, h4 {
     color: var(--secondary-color);
 }
 
+
 footer {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
     font-family: var(--paragraph-font);
     margin-top: 1rem;
     border-top: 2px solid #A54C40;
-    text-align: center; 
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: center;
+    grid-column-end: auto;
 }
 
 a:link {
