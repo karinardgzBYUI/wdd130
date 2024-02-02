@@ -107,8 +107,7 @@ footer {
 
 .sociallinks {
     display: flex;
-    justify-content: center;
-    grid-column-end: auto;
+    justify-content: end;    
 }
 
 a:link {
