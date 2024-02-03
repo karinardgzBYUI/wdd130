@@ -10,7 +10,7 @@
     --paragraph-font:'Montserrat', Sans Serif;
     --nav-background-color: #FAEC7C;
     --nav-link-color: #A54C40;
-    --nav-hover-link-color: #000000;
+    --nav-hover-link-color: #240703;
     --nav-hover-backgroung-color: #ffffff;
 }
 
@@ -47,6 +47,11 @@ nav {
 nav a {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
+}
+
+nav a:hover {
+    color : var(--nav-hover-link-color);
+    background-color : var(--secondary-color);
 }
 
 .box {
