@@ -23,7 +23,7 @@ header {
     font-size: large;
 }
 
-header img{
+header img {
     grid-column: 1/2;
 }
 
