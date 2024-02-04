@@ -96,6 +96,11 @@ figure img {
     width: 50%;
 }
 
+.hero p {
+    font-weight: bold;
+    font-size: large;
+}
+
 h1, h2, h3, h4 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
