@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Monserrat, sans-serif;
+    color: #A54C40;     
+    font-size: 1em;
+    background:  #ffffff;
+}
+
+header {
+    margin: 1rem auto 0 ;
+    width: 840px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 2em;
+    color: #A95F4D;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba (0,0,0,0.1);
+    border-radius: .8rem;
+    background-color: #F39B2A;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 2px solid rgba(250, 236, 124, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: #A54C40;
+    font-size: 1.3em;    
+}
+
+label, input, button, select, textarea {
+    font-family: Urbanist, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input [type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: #A95F4D;
+    color: #F39B2A;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgoldenrod;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 840px;
+    text-align: center;
+    font-size: 0.8em;
+    border-top: 2px solid #A54C40;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
