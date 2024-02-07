@@ -28,7 +28,7 @@ form {
 
 fieldset {
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 1.5rem;
     margin: .5rem;
     border: none;
     padding: .5rem;    
