@@ -30,41 +30,32 @@ form {
 }
 
 fieldset {
+    display: grid;  
+    grid-gap: 1rem; 
     margin: .5rem;
     border: none;
-    padding: .5rem;    
-}
-
-.quiz {
-    display: grid;    
-    grid-gap: 1rem;
+    padding: .5rem;
 }
 
 label {
     color: black;
 }
 
-label, li {
+label {
+    grid-column-start: 1;
     text-align: left;
     padding-right: 1rem;
 }
 
-li {
-    color: steelblue;
-}
-
-ol, li {
-    margin-left: 20px;
-}
-
 input, select, textarea {
-    padding: 500;
+    grid-column-end: 3;
 }
 
 input[type="checkbox"] {
     width: 20px;
     height: 20px;
     vertical-align: bottom;
+    grid-column-end: 3;
 }
 
 button {

@@ -13,19 +13,17 @@
     
     <body>
         <header>
-            <h1>Your Contact Information<h1>
+        <h1>Your Contact Information</h1>
         </header>
         
         <main>
             <form>
                 <fieldset>
-                    <ol>
-                    <div class="quiz">
-                        <li><label for="fullname">Full Name</label></li>
+                        <label for="fullname">Full Name</label>
                         <input type="text" id="fullname" name="fullname">
-                        <li><label for="email">Email Adress</label></li>
+                        <label for="email">Email Adress</label>
                         <input type="text" id="email" name="email">
-                        <li><label for="browser">Select your city</label></li>
+                        <label for="browser">Select your city</label>
                         <select id="browser" name="browser">
                         <option value="first">Delaware</option>
                         <option value="second">Main</option>
@@ -34,16 +32,14 @@
                         <option value="fiveth">Wyoming</option>
                         <option value="sixth">Other</option>
                         </select>
-                        <li><input type="checkbox" name="pet"><label for="pet">Mark if you have a pet</label></li>
-                        <li><label>What kind of pet do you have?</label></li>
+                        <label for="pet">Mark if you have a pet</label>
+                        <input type="checkbox" name="pet">
+                        <label>What kind of pet do you have?</label>
                         <input type="text" id="pet" name="pet">
-                        <li><label for="age">What is your age?</label></li>
-                        <input type="number" id="age" name="age" min="10" max="100"></input>
-                        <li><label for="q6">Do you have any question for me?</label></li>
+                        <label for="age">What is your age?</label>
+                        <input type="number" id="age" name="age" min="1" max="100"></input>
+                        <label for="q6">Do you have any question for me?</label>
                         <textarea id="q6" name="q6" rows="4" placeholder=""></textarea>
-                    </div>
-                    </ol>
-                
                 </fieldset>
                 <button type="submit">Submit Quiz</button>
             </form>
