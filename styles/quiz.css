@@ -1,5 +1,4 @@
 * {
-    margin: 0;
     padding: 0 auto;
     box-sizing: border-box;
 }
@@ -10,7 +9,7 @@ body {
 
 header {
     margin: 1rem auto 0;
-    width: 500px;
+    width: 600px;
 }
 
 h1 {
@@ -19,7 +18,7 @@ h1 {
 }
 
 form {
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px;
@@ -35,6 +34,7 @@ fieldset {
     margin: .5rem;
     border: none;
     padding: .5rem;
+    grid-template-columns: 50% 50%;
 }
 
 label {
