@@ -137,7 +137,7 @@ fieldset {
     grid-gap: 0.5rem;
     margin: 1rem;
     border: 2px solid var(--fieldset-color);
-    padding: 1rem;
+    padding: 2rem;
     color: var(--accent1-color);    
 }
 
@@ -145,6 +145,11 @@ legend {
     padding: 0.5rem;
     color: var(--secondary-color);
     font-size: 1.3em;       
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
 }
 
 button {
