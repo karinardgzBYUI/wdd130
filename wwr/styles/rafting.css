@@ -2,21 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 
 :root {
-    --primary-color: #A54C40;
+    --primary-color: #452c0d;
     --secondary-color: #F39B2A;
-    --accent1-color: #A95F4D;
-    --accent2-color: #FECF00;
+    --accent1-color: #FAEC7C;
+    --accent2-color: #ff9500;
     --heading-font:'Urbanist', Sans Serif;
     --paragraph-font:'Montserrat', Sans Serif;
     --nav-background-color: #FAEC7C;
-    --nav-link-color: #A54C40;
+    --nav-link-color: darkgray;
     --nav-hover-link-color: #240703;
     --nav-hover-backgroung-color: #ffffff;
 }
 
+body {
+    font-family: var(--paragraph-font);
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 960px;
+    color: var(--primary-color);
+}
+
 header {
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 40% 60%;
     padding: 20px;
     width: auto;
     background-color: var(--accent2-color);
@@ -25,15 +34,6 @@ header {
 
 header img {
     grid-column: 1/2;
-}
-
-body {
-    font-family: var(--paragraph-font);
-    text-align: center;
-    margin: 0 auto;
-    padding: 20px;
-    max-width: 960px;
-    color: var(--accent1-color);
 }
 
 nav {
@@ -51,12 +51,15 @@ nav a {
 
 nav a:hover {
     color : var(--nav-hover-link-color);
-    background-color : var(--secondary-color);
+    background-color : var(--accent1-color);
 }
 
 .box {
     display: grid;
-    grid-template-columns: repeat(5, 20%);                
+    grid-template-columns: repeat(5, 20%);
+    padding: 20px;
+    width: auto;
+    background-color: var(--accent1-color);                 
 }
 
 figure img {
@@ -77,10 +80,9 @@ figure img {
 .hero h1 {
     position: absolute;
     color: var(--primary-color);
-    top: 5px;
+    top: 10px;
     left: 400px;
-    background-color: #FECF00;
-    opacity: .6;
+    background-color: var(--secondary-color);
  }
 
 .hero article {
@@ -99,11 +101,27 @@ figure img {
 .hero p {
     font-weight: bold;
     font-size: large;
+    color: var(--primary-color);
+    margin: 50px 10px 10px 10px;
 }
 
 h1, h2, h3, h4 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--accent2-color);
+}
+
+h2 {
+    display: grid;
+    padding: 20px;
+    width: auto;
+    background-color: var(--primary-color);
+}
+
+.history p {
+    display: grid;
+    padding: 20px;
+    width: auto;
+    background-color: var(--accent1-color);    
 }
 
 footer {
