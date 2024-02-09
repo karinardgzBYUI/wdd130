@@ -9,9 +9,9 @@
     --heading-font:'Urbanist', Sans Serif;
     --paragraph-font:'Montserrat', Sans Serif;
     --nav-background-color: #FAEC7C;
-    --nav-link-color: darkgray;
+    --fieldset-color: darkgray;
     --nav-hover-link-color: #240703;
-    --nav-hover-backgroung-color: #ffffff;
+    --nav-hover-background-color: #ffffff;
 }
 
 body {
@@ -49,7 +49,7 @@ nav a {
     color: var(--primary-color);
 }
 
-nav a:hover {
+nav a:hover, button:hover {
     color : var(--nav-hover-link-color);
     background-color : var(--accent1-color);
 }
@@ -122,6 +122,52 @@ h2 {
     padding: 20px;
     width: auto;
     background-color: var(--accent1-color);    
+}
+
+form {
+    display: grid;
+    margin: 0 auto;
+    padding: 1rem;    
+    background-color: var(--primary-color);
+    margin-top: 20px;          
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 2px solid var(--fieldset-color);
+    padding: 1rem;
+    color: var(--accent1-color);    
+}
+
+legend {
+    padding: 0.5rem;
+    color: var(--secondary-color);
+    font-size: 1.3em;       
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;      
+}
+
+.interest {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.contact, .comments {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 1rem;               
 }
 
 footer {
