@@ -129,7 +129,8 @@ form {
     margin: 0 auto;
     padding: 1rem;    
     background-color: var(--primary-color);
-    margin-top: 20px;          
+    margin-top: 20px; 
+    width: 700px;             
 }
 
 fieldset {
