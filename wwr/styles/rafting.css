@@ -173,7 +173,12 @@ button {
 .contact, .comments {
     display: grid;
     grid-template-columns: 40% 60%;
-    grid-gap: 1rem;               
+    grid-gap: 1rem;    
+}
+
+input[type="number"], label for="browser"{
+    width: 100px;
+    grid-column-end: 3;   
 }
 
 footer {
