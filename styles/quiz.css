@@ -9,7 +9,7 @@ body {
 
 header {
     margin: 1rem auto 0;
-    width: 600px;
+    width: 700px;
 }
 
 h1 {
@@ -18,7 +18,7 @@ h1 {
 }
 
 form {
-    width: 600px;
+    width: 700px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px;
@@ -34,7 +34,7 @@ fieldset {
     margin: .5rem;
     border: none;
     padding: .5rem;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
 }
 
 label {
@@ -49,6 +49,7 @@ label {
 
 input, select, textarea {
     grid-column-end: 3;
+    font-size : 15px;    
 }
 
 input[type="checkbox"] {
