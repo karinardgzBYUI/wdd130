@@ -13,7 +13,7 @@
     
     <body>
         <header>
-        <h1>Basic HTML Quiz</h1>
+            <h1>Basic HTML Quiz</h1>
         </header>
         
         <main>
@@ -21,15 +21,10 @@
                 <fieldset>
                         <label for="q1">1. What is HTML?</label>
                         <input type="text" id="q1" name="q1">
-                        
-                        <label for="q2">2. What is a Form in HTML?</label>
-                        <input type="text" id="q2" name="q2">
-                        
-                        <label for="form">3. Can you create a form in HTML?</label>
-                        <input type="checkbox" id="form" name="form">                  
-                        
-                        <label for="browser">3. Which is the element used as a container for different types of input elements?</label>
-                        <select id="browser" name="browser">
+                        <label for="q2">2. Create a basic HTML page</label>
+                        <textarea id="q2" name="q2" rows="8" placeholder="&lt;!DOCTYPE html&gt;"></textarea>
+                        <label for="q3">3. Which is the element used as a container for different types of input elements?</label>
+                        <select id="q3" name="q3">
                         <option value="other">Choose one</option>
                         <option value="first">&lt;input&gt;</option>
                         <option value="second">&lt;label&gt;</option>
@@ -37,9 +32,10 @@
                         <option value="fourth">&lt;form&gt;</option>
                         <option value="fiveth">&lt;select&gt;</option>
                         <option value="sixth">&lt;br&gt;</option>
-                        </select>                        
-                        <label for="q4">4. Create a basic HTML page</label>
-                        <textarea id="q4" name="q4" rows="8" placeholder="&lt;!DOCTYPE html&gt;"></textarea>
+                        </select>  
+                        <label for="q4">4. What number defines the most important heading?</label>
+                        <input type="number" id="q4" name="q4" min="1" max="6">                                     
+                        
                 </fieldset>
                 <button type="submit">Submit Quiz</button>
             </form>
