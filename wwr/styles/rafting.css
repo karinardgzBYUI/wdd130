@@ -176,15 +176,19 @@ button {
     grid-gap: 1rem;          
 }
 
-.employee, .location {
-    background-color: var(--accent1-color);     
+.employee, .location, .map {
+    background-color: var(--accent1-color);
+    margin: 0 auto;
+    padding: 1rem;         
 }
 
 .employee {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 20px;
-    width: auto;         
+    grid-template-columns: repeat(3, 1fr);   
+}
+
+.employee img {
+    width: 100%;
 }
 
 .trips {
