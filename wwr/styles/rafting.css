@@ -263,10 +263,12 @@ button {
     margin: 0 auto;
     padding: 1rem;    
     background-color: var(--accent1-color);
-    text-align: left;
+    text-align: center;
 }
 
-
+li {
+    text-align: left;
+  }
 
 footer {
     display: grid;
