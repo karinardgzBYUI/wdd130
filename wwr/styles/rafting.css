@@ -228,7 +228,7 @@ button {
 
 .rapids3 h3 {
     position: absolute;
-	top: 1250px;
+	top: 1220px;
 	right: 100px;
 	background: var(--primary-color);
 	border: var(--secondary-color);
@@ -239,7 +239,7 @@ button {
 
 .rapids4 h3 {
     position: absolute;
-	top: 2080px;
+	top: 2020px;
 	right: 100px;
 	background: var(--primary-color);
 	border: var(--secondary-color);
@@ -250,7 +250,7 @@ button {
 
 .rapids5 h3 {
     position: absolute;
-	top: 2920px;
+	top: 2830px;
 	right: 100px;
 	background: var(--primary-color);
 	border: var(--secondary-color);
