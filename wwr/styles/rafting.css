@@ -199,6 +199,16 @@ button {
     position: relative;            
 }
 
+.trips a:link, a:visited {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  }
+
 .trips img {
     width: 100%;
 	height: 100%;
