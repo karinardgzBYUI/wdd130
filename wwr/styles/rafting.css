@@ -410,11 +410,11 @@ table, td {
     font-family: var(--paragraph-font);
     text-align: center;
     margin: 0 auto;
-    padding: 25px;
+    padding: 32px;
     max-width: 960px;
     color: var(--primary-color);
     background-color:#FAEC7C;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 th {
