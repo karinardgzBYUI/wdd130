@@ -85,10 +85,11 @@ figure img {
 .fullimage h3 {
     position: absolute;
     font-size: 50px;
-    text-shadow: 0 0 5px #F39B2A;
+    text-shadow: 0 0 5px #FAEC7C;
     top: 20%;
     left: 13%;
-    color: var(--primary-color);    
+    color: #452c0d;
+    background-color: #ff9500;    
 	padding: 1rem;
 	opacity: 0.8;
 }
@@ -116,9 +117,10 @@ figure img {
 
 .hero p {
     font-weight: bold;
-    font-size: large;
+    font-size: 25px;
     color: var(--primary-color);
-    margin: 50px 10px 10px 10px;
+    margin: 30px 10px 10px 10px;
+    text-shadow: 0 0 5px #FAEC7C;
 }
 
 h1, h2, h3, h4 {
