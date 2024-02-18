@@ -85,7 +85,7 @@ figure img {
 .fullimage h3 {
     position: absolute;
     font-size: 65px;
-    text-shadow: 0 0 15px #FAEC7C;
+    text-shadow: 0 0 15px white;
     top: 20%;
     left: 5%;
 }
