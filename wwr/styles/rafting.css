@@ -123,7 +123,7 @@ h1, h2, h3, h4 {
     color: var(--accent2-color);
 }
 
-h2 {
+h2, .description h3, .description2 h3, .one h4, .three h4, .four h4, .five h4 {
     display: grid;
     padding: 20px;
     width: auto;
@@ -371,7 +371,7 @@ button {
 
 .four h3 {
     position: absolute;
-	top: 879px;
+	top: 895px;
 	left: 30px;
 	background: var(--primary-color);
 	border: var(--fieldset-color);
@@ -392,7 +392,7 @@ button {
 
 .five h3 {
     position: absolute;
-	top: 1194px;
+	top: 1220px;
 	right: 30px;
 	background: var(--primary-color);
 	border: var(--fieldset-color);
