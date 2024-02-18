@@ -84,10 +84,13 @@ figure img {
 
 .fullimage h3 {
     position: absolute;
-    font-size: 65px;
-    text-shadow: 0 0 15px white;
+    font-size: 50px;
+    text-shadow: 0 0 5px #F39B2A;
     top: 20%;
-    left: 5%;
+    left: 13%;
+    color: var(--primary-color);    
+	padding: 1rem;
+	opacity: 0.8;
 }
     
 .hero h1, .fullimage h1 {
