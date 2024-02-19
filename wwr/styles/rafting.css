@@ -71,18 +71,18 @@ figure img {
    max-width: 120px;   
 }
 
-.hero, .fullimage, .promotion {
+.hero, .herofullimage, .promotion {
     position: relative;
     margin-top: 20px;
 }
 
-.hero img, .fullimage img {
+.hero img, .herofullimage img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.fullimage h3 {
+.herofullimage h3 {
     position: absolute;
     font-size: 50px;
     text-shadow: 0 0 5px #FAEC7C;
@@ -94,7 +94,7 @@ figure img {
 	opacity: 0.8;
 }
     
-.hero h1, .fullimage h1 {
+.hero h1, .herofullimage h1 {
     position: absolute;
     color: var(--primary-color);
     top: 10px;
@@ -289,7 +289,7 @@ button {
     grid-row: 2;
 }
 
-.trips a:link, .fullimage a:link {
+.trips a:link, .herofullimage a:link {
     background-color: var(--accent2-color);
     color: var(--primary-color);
     padding: 14px 25px;
