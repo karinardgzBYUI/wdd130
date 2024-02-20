@@ -399,7 +399,7 @@ button {
 .five h3 {
     position: absolute;
 	top: 1220px;
-	right: 30px;
+	right: 20px;
 	background: var(--primary-color);
 	border: var(--fieldset-color);
 	padding: 1rem;
@@ -411,7 +411,7 @@ table, td {
     font-family: var(--paragraph-font);
     text-align: center;
     margin: 0 auto;
-    padding: 32px;
+    padding: 30px;
     max-width: 960px;
     color: var(--primary-color);
     background-color:#FAEC7C;
