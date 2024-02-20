@@ -407,30 +407,32 @@ button {
 	opacity: 0.8;
  }
 
-table, td {
-    font-family: var(--paragraph-font);
-    text-align: center;
+table {
+   display: block;
     margin: 0 auto;
     padding: 30px;
     max-width: 960px;
     color: var(--primary-color);
-    background-color:#FAEC7C;
-    font-size: 18px;
+    background-color:#FAEC7C;    
+}
+
+td {    
+    font-family: var(--paragraph-font);
+    text-align: center;
+    padding: 30px;
+    color: var(--primary-color);   
+    font-size: 15px;
+    background-color: #ff9500;
+    opacity: 0.9;
 }
 
 th {
     color: #F39B2A;
     background-color: #452c0d; 
     text-align: center;
-    font-size: 25px;
-    opacity: 0.8;
-    padding: 20px;
-}
-
-td {
-    background-color: #ff9500;
-    opacity: 0.8;
-    padding: 10px;
+    font-size: 20px;
+    opacity: 0.9;
+    padding: 30px;   
 }
 
 tr:hover {
