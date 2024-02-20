@@ -437,6 +437,11 @@ tr:hover {
     background-color: coral;
 }
 
+table li::marker {
+    content: '- ';
+    font-size: 1.2em;
+  }
+
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
