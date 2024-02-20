@@ -430,6 +430,7 @@ th {
 td {
     background-color: #ff9500;
     opacity: 0.8;
+    padding: 10px;
 }
 
 tr:hover {
